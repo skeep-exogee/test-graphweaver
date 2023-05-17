@@ -7,20 +7,20 @@
   "scripts": {
     "build": "graphweaver build",
     "start": "graphweaver start",
-    "clean": "rm -rf ./node_modules && pnpm i && pnpm build"
+    "clean": "rm -rf ./node_modules && rm -rf ./.graphweaver && pnpm i && pnpm build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@as-integrations/aws-lambda": "^2.0.1",
-    "@exogee/graphweaver": "^0.1.9",
-    "@exogee/graphweaver-admin-ui-components": "^0.1.9",
-    "@exogee/graphweaver-apollo": "^0.1.9",
-    "@exogee/graphweaver-auth": "^0.1.9",
-    "@exogee/graphweaver-cli": "^0.1.9",
-    "@exogee/graphweaver-mikroorm": "^0.1.9",
-    "@exogee/graphweaver-rest": "^0.1.9",
+    "@exogee/graphweaver": "^0.1.10",
+    "@exogee/graphweaver-admin-ui-components": "^0.1.10",
+    "@exogee/graphweaver-apollo": "^0.1.10",
+    "@exogee/graphweaver-auth": "^0.1.10",
+    "@exogee/graphweaver-cli": "^0.1.10",
+    "@exogee/graphweaver-mikroorm": "^0.1.10",
+    "@exogee/graphweaver-rest": "^0.1.10",
     "@mikro-orm/core": "5.4.2",
     "@mikro-orm/mysql": "5.4.2",
     "@remix-run/router": "*",

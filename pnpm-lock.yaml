@@ -2,13 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@as-integrations/aws-lambda': ^2.0.1
-  '@exogee/graphweaver': ^0.1.9
-  '@exogee/graphweaver-admin-ui-components': ^0.1.9
-  '@exogee/graphweaver-apollo': ^0.1.9
-  '@exogee/graphweaver-auth': ^0.1.9
-  '@exogee/graphweaver-cli': ^0.1.9
-  '@exogee/graphweaver-mikroorm': ^0.1.9
-  '@exogee/graphweaver-rest': ^0.1.9
+  '@exogee/graphweaver': ^0.1.10
+  '@exogee/graphweaver-admin-ui-components': ^0.1.10
+  '@exogee/graphweaver-apollo': ^0.1.10
+  '@exogee/graphweaver-auth': ^0.1.10
+  '@exogee/graphweaver-cli': ^0.1.10
+  '@exogee/graphweaver-mikroorm': ^0.1.10
+  '@exogee/graphweaver-rest': ^0.1.10
   '@mikro-orm/core': 5.4.2
   '@mikro-orm/mysql': 5.4.2
   '@remix-run/router': '*'
@@ -21,13 +21,13 @@ specifiers:
 
 dependencies:
   '@as-integrations/aws-lambda': 2.0.1
-  '@exogee/graphweaver': 0.1.9
-  '@exogee/graphweaver-admin-ui-components': 0.1.9_@types+node@14.14.10
-  '@exogee/graphweaver-apollo': 0.1.9_@mikro-orm+core@5.4.2
-  '@exogee/graphweaver-auth': 0.1.9
-  '@exogee/graphweaver-cli': 0.1.9_@types+node@14.14.10
-  '@exogee/graphweaver-mikroorm': 0.1.9_@mikro-orm+core@5.4.2
-  '@exogee/graphweaver-rest': 0.1.9
+  '@exogee/graphweaver': 0.1.10
+  '@exogee/graphweaver-admin-ui-components': 0.1.10_@types+node@14.14.10
+  '@exogee/graphweaver-apollo': 0.1.10_@mikro-orm+core@5.4.2
+  '@exogee/graphweaver-auth': 0.1.10
+  '@exogee/graphweaver-cli': 0.1.10_@types+node@14.14.10
+  '@exogee/graphweaver-mikroorm': 0.1.10_@mikro-orm+core@5.4.2
+  '@exogee/graphweaver-rest': 0.1.10
   '@mikro-orm/core': 5.4.2_@mikro-orm+mysql@5.4.2
   '@mikro-orm/mysql': 5.4.2_@mikro-orm+core@5.4.2
   '@remix-run/router': 1.0.3
@@ -1491,8 +1491,8 @@ packages:
     dev: false
     optional: true
 
-  /@exogee/graphweaver-admin-ui-components/0.1.9_5l4ezjvmxhxfzu6jhvkyyocony:
-    resolution: {integrity: sha512-qCfjDMLn1uCoLMzM2z8QtlezYJY1u5geWqHLUWGpDubHlg3NiuiRTQvEGjgHNgKyLp64EzJkEcBiDfbdFfq7Fw==}
+  /@exogee/graphweaver-admin-ui-components/0.1.10_5l4ezjvmxhxfzu6jhvkyyocony:
+    resolution: {integrity: sha512-9vQB8U75nnS+/4zV3IyiYS6Ow32ePaYgt4QFhSZiQ4snH0Uw5dEz7hqNCepzXz7GnT8/60Wix7tU8/QK3VMo6A==}
     peerDependencies:
       react: 18.2.0
       react-dom: 18.2.0
@@ -1519,8 +1519,8 @@ packages:
       - subscriptions-transport-ws
     dev: false
 
-  /@exogee/graphweaver-admin-ui-components/0.1.9_@types+node@14.14.10:
-    resolution: {integrity: sha512-qCfjDMLn1uCoLMzM2z8QtlezYJY1u5geWqHLUWGpDubHlg3NiuiRTQvEGjgHNgKyLp64EzJkEcBiDfbdFfq7Fw==}
+  /@exogee/graphweaver-admin-ui-components/0.1.10_@types+node@14.14.10:
+    resolution: {integrity: sha512-9vQB8U75nnS+/4zV3IyiYS6Ow32ePaYgt4QFhSZiQ4snH0Uw5dEz7hqNCepzXz7GnT8/60Wix7tU8/QK3VMo6A==}
     peerDependencies:
       react: 18.2.0
       react-dom: 18.2.0
@@ -1544,11 +1544,11 @@ packages:
       - subscriptions-transport-ws
     dev: false
 
-  /@exogee/graphweaver-admin-ui/0.1.9_@types+node@14.14.10:
-    resolution: {integrity: sha512-kXq0vhsb11DijOT9ClbLDIrlL/TfXJdptkEZO5qw0GxjMG8ORf0MNU+HsONs96JDOqQ8wLQhlCHgwGDweEx0aw==}
+  /@exogee/graphweaver-admin-ui/0.1.10_@types+node@14.14.10:
+    resolution: {integrity: sha512-wtxTynsR44D164bhPVGT3Aeejl/zCMf8Th5d2KlwWpgVl1IHThm108JcjXG7hWHu+xAzNLhRCimwSc+2CDzRQQ==}
     dependencies:
       '@apollo/client': 3.7.1_gdcq4dv6opitr3wbfwyjmanyra
-      '@exogee/graphweaver-admin-ui-components': 0.1.9_5l4ezjvmxhxfzu6jhvkyyocony
+      '@exogee/graphweaver-admin-ui-components': 0.1.10_5l4ezjvmxhxfzu6jhvkyyocony
       classnames: 2.3.2
       graphql: 16.6.0
       pluralize: 8.0.0
@@ -1571,11 +1571,11 @@ packages:
       - vite
     dev: false
 
-  /@exogee/graphweaver-admin-ui/0.1.9_cazpehtz6yh7g3qmpi6ys5lbte:
-    resolution: {integrity: sha512-kXq0vhsb11DijOT9ClbLDIrlL/TfXJdptkEZO5qw0GxjMG8ORf0MNU+HsONs96JDOqQ8wLQhlCHgwGDweEx0aw==}
+  /@exogee/graphweaver-admin-ui/0.1.10_cazpehtz6yh7g3qmpi6ys5lbte:
+    resolution: {integrity: sha512-wtxTynsR44D164bhPVGT3Aeejl/zCMf8Th5d2KlwWpgVl1IHThm108JcjXG7hWHu+xAzNLhRCimwSc+2CDzRQQ==}
     dependencies:
       '@apollo/client': 3.7.1_gdcq4dv6opitr3wbfwyjmanyra
-      '@exogee/graphweaver-admin-ui-components': 0.1.9_5l4ezjvmxhxfzu6jhvkyyocony
+      '@exogee/graphweaver-admin-ui-components': 0.1.10_5l4ezjvmxhxfzu6jhvkyyocony
       classnames: 2.3.2
       graphql: 16.6.0
       pluralize: 8.0.0
@@ -1598,13 +1598,15 @@ packages:
       - vite
     dev: false
 
-  /@exogee/graphweaver-apollo/0.1.9_@mikro-orm+core@5.4.2:
-    resolution: {integrity: sha512-/lmbDBZZvb7F/w6AOZvFK1+TegyHMJnMRfXjrMQfdlgRI1+5T5Yh27+P4jWd8gXS5fahycsBjrXq0S3U6d5wzg==}
+  /@exogee/graphweaver-apollo/0.1.10_@mikro-orm+core@5.4.2:
+    resolution: {integrity: sha512-8qfVU+Bzju04biEJYd69daX3z0FwKeNPlHM/4HGZrdcWMrkj2x2dlAQRKGxF7C1tLbLt1+eudcCYT8nZkBMzqg==}
     dependencies:
       '@apollo/server': 4.2.2_graphql@16.6.0
-      '@exogee/graphweaver': 0.1.9
-      '@exogee/graphweaver-mikroorm': 0.1.9_@mikro-orm+core@5.4.2
-      '@exogee/logger': 0.1.9
+      '@exogee/graphweaver': 0.1.10
+      '@exogee/graphweaver-mikroorm': 0.1.10_@mikro-orm+core@5.4.2
+      '@exogee/logger': 0.1.10
+      '@graphql-tools/graphql-file-loader': 7.5.17_graphql@16.6.0
+      '@graphql-tools/load': 7.8.14_graphql@16.6.0
       '@graphql-tools/schema': 8.0.0_graphql@16.6.0
       async-mutex: 0.3.2
       class-validator: 0.13.2
@@ -1628,11 +1630,11 @@ packages:
       - tedious
     dev: false
 
-  /@exogee/graphweaver-auth/0.1.9:
-    resolution: {integrity: sha512-htxOMUtb3T+8g840jPLqI/WgcoVfuzWUVvol9bShwo+Eit9SeN7t+WvMAQhjq7XTa+lzIXqVUR0WM39QoxL+fg==}
+  /@exogee/graphweaver-auth/0.1.10:
+    resolution: {integrity: sha512-sjksVM/wOejtcmyp/HUJqSve04aL3I13bhILYV9pB5+Vu75RNd1kIyHTTs5Dc2wdgDw7RRrICDnOjVNm92G2/w==}
     dependencies:
-      '@exogee/graphweaver': 0.1.9
-      '@exogee/logger': 0.1.9
+      '@exogee/graphweaver': 0.1.10
+      '@exogee/logger': 0.1.10
       apollo-server-errors: 3.3.1_graphql@16.6.0
       class-validator: 0.13.2
       dotenv: 10.0.0
@@ -1642,11 +1644,11 @@ packages:
       - supports-color
     dev: false
 
-  /@exogee/graphweaver-builder/0.1.9_@types+node@14.14.10:
-    resolution: {integrity: sha512-/3dd10CoSfN+E7XcuSPRIXdhSlAaPStAUtBnGz5CIMAFd7nJEzvvGmgIWdxYqlxveSPplKYSAM4XB2QVFgKWww==}
+  /@exogee/graphweaver-builder/0.1.10_@types+node@14.14.10:
+    resolution: {integrity: sha512-1iX7Ut9mkkxH/7xEknm+WP11l2YxB4F/8N6oW3zcxdFTIotLt9gOBBxz1BNoWj4rts5ns+FVYYoFi/hWvy6yKg==}
     requiresBuild: true
     dependencies:
-      '@exogee/graphweaver-admin-ui': 0.1.9_cazpehtz6yh7g3qmpi6ys5lbte
+      '@exogee/graphweaver-admin-ui': 0.1.10_cazpehtz6yh7g3qmpi6ys5lbte
       '@serverless/utils': 6.8.2
       '@vitejs/plugin-react': 2.2.0_vite@3.2.4
       dotenv: 16.0.3
@@ -1657,8 +1659,9 @@ packages:
       serverless: 3.25.1
       serverless-dotenv-plugin: 4.0.2_serverless@3.25.1
       serverless-offline: 12.0.2_serverless@3.25.1
+      type-graphql: 2.0.0-beta.1
       vite: 3.2.4_@types+node@14.14.10
-      vite-plugin-graphweaver: 0.1.9_vite@3.2.4
+      vite-plugin-graphweaver: 0.1.10_vite@3.2.4
       vite-plugin-svgr: 2.2.2_vite@3.2.4
     transitivePeerDependencies:
       - '@codemirror/language'
@@ -1666,8 +1669,10 @@ packages:
       - '@types/react'
       - aws-crt
       - bufferutil
+      - class-validator
       - debug
       - encoding
+      - graphql
       - graphql-ws
       - less
       - react-is
@@ -1681,12 +1686,12 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@exogee/graphweaver-cli/0.1.9_@types+node@14.14.10:
-    resolution: {integrity: sha512-uUdpr86DR8lwE6PqhqGOXWtVAx1QTMBGK85bywjPJIkEPuim+5tg2LOeh2IKfdRPNUk8XLaOOruLvzs3uZMtMg==}
+  /@exogee/graphweaver-cli/0.1.10_@types+node@14.14.10:
+    resolution: {integrity: sha512-1I7hvchNuUVYecXqkPMJpINqrLovmm3zJFfS5E98kqZb4uEoYQkDHoxRgJ8sP1eczyph4/qqfcx4WrxUj8I/OA==}
     hasBin: true
     dependencies:
-      '@exogee/graphweaver-admin-ui': 0.1.9_@types+node@14.14.10
-      '@exogee/graphweaver-builder': 0.1.9_@types+node@14.14.10
+      '@exogee/graphweaver-admin-ui': 0.1.10_@types+node@14.14.10
+      '@exogee/graphweaver-builder': 0.1.10_@types+node@14.14.10
       esbuild: 0.15.5
       inquirer: 9.2.1
       yargs: 17.6.2
@@ -1696,8 +1701,10 @@ packages:
       - '@types/react'
       - aws-crt
       - bufferutil
+      - class-validator
       - debug
       - encoding
+      - graphql
       - graphql-ws
       - less
       - react-is
@@ -1712,13 +1719,13 @@ packages:
       - vite
     dev: false
 
-  /@exogee/graphweaver-mikroorm/0.1.9_@mikro-orm+core@5.4.2:
-    resolution: {integrity: sha512-ww43/zGtViZJiYADksntsR6nByAcYWWWUI5ZczRqA8W5qU/I6Dc5w80MgcXFJMlLes/MdlE97otZNhcSRYvsDA==}
+  /@exogee/graphweaver-mikroorm/0.1.10_@mikro-orm+core@5.4.2:
+    resolution: {integrity: sha512-JS6ueBnvBpFe5bkEvm02yZRGNM9k0e6qW9Ztr+5TT9iZMxI8cZ4AeiculwzNsQUnb9cfatB386rSkR47ebQqSg==}
     peerDependencies:
       '@mikro-orm/core': 5.4.2
     dependencies:
-      '@exogee/graphweaver': 0.1.9
-      '@exogee/logger': 0.1.9
+      '@exogee/graphweaver': 0.1.10
+      '@exogee/logger': 0.1.10
       '@mikro-orm/core': 5.4.2_@mikro-orm+mysql@5.4.2
       apollo-server-core: 3.10.3_graphql@16.6.0
       dataloader: 2.2.2
@@ -1745,11 +1752,11 @@ packages:
       - tedious
     dev: false
 
-  /@exogee/graphweaver-rest/0.1.9:
-    resolution: {integrity: sha512-eprnzzILZwRdRuPkFzUXGgrjUyka9ds2vfMz9T4oZ8pJ36YW2kBqyzo4zUiZMNCEQRCYciNk63No8VLeeB04gg==}
+  /@exogee/graphweaver-rest/0.1.10:
+    resolution: {integrity: sha512-MJWqH2oEAbutBcN5fn+Pa9Bctf27y7+7t17x+IyTJ13gLKHgFTVCiui5CXjiELIXyyNT7DjHKzBPpoLO62Od7g==}
     dependencies:
-      '@exogee/graphweaver': 0.1.9
-      '@exogee/logger': 0.1.9
+      '@exogee/graphweaver': 0.1.10
+      '@exogee/logger': 0.1.10
       apollo-server-errors: 3.3.1_graphql@16.6.0
       class-validator: 0.13.2
       dataloader: 2.2.2
@@ -1763,10 +1770,10 @@ packages:
       - supports-color
     dev: false
 
-  /@exogee/graphweaver/0.1.9:
-    resolution: {integrity: sha512-3EAvRGfxy3dpYuAfFi8IWO0fc9sZ5wI+lkp8mSb7UzUOZEwndK+D+RSmt1hRQ/zF4gcba4+3dgD0HgsRJGa+8A==}
+  /@exogee/graphweaver/0.1.10:
+    resolution: {integrity: sha512-8gSe7Nt2NhOJiSNN5sxrUq/J2ge5p6YcjNThGyGcdED4ctt02qEWKYN0lXq5j1VILVIwpgfok5yiYYSPbmlSGg==}
     dependencies:
-      '@exogee/logger': 0.1.9
+      '@exogee/logger': 0.1.10
       '@graphql-tools/delegate': 9.0.35_graphql@16.6.0
       class-validator: 0.13.2
       dataloader: 2.2.2
@@ -1779,8 +1786,8 @@ packages:
       - supports-color
     dev: false
 
-  /@exogee/logger/0.1.9:
-    resolution: {integrity: sha512-n4pK5QwTf46uZduaP5Rvw0NBOB5qefbJoo0leMjXKeWOmlkx6yp8rt2H4GLC4TS+WjuZUomUHGiTqGpnb8qp8A==}
+  /@exogee/logger/0.1.10:
+    resolution: {integrity: sha512-owITnP8S8Du7pba8rsM0tfxiRQdTGp4u5W9vPIFe8XO4D3it5MjKiN2f0CHeU1j671bn+QqN/i4p22Ms3JcNrA==}
     dependencies:
       bunyan: 1.8.14
     dev: false
@@ -1917,6 +1924,42 @@ packages:
       graphql: 16.6.0
       tslib: 2.5.0
       value-or-promise: 1.0.12
+    dev: false
+
+  /@graphql-tools/graphql-file-loader/7.5.17_graphql@16.6.0:
+    resolution: {integrity: sha512-hVwwxPf41zOYgm4gdaZILCYnKB9Zap7Ys9OhY1hbwuAuC4MMNY9GpUjoTU3CQc3zUiPoYStyRtUGkHSJZ3HxBw==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-tools/import': 6.7.18_graphql@16.6.0
+      '@graphql-tools/utils': 9.2.1_graphql@16.6.0
+      globby: 11.1.0
+      graphql: 16.6.0
+      tslib: 2.5.0
+      unixify: 1.0.0
+    dev: false
+
+  /@graphql-tools/import/6.7.18_graphql@16.6.0:
+    resolution: {integrity: sha512-XQDdyZTp+FYmT7as3xRWH/x8dx0QZA2WZqfMF5EWb36a0PiH7WwlRQYIdyYXj8YCLpiWkeBXgBRHmMnwEYR8iQ==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-tools/utils': 9.2.1_graphql@16.6.0
+      graphql: 16.6.0
+      resolve-from: 5.0.0
+      tslib: 2.5.0
+    dev: false
+
+  /@graphql-tools/load/7.8.14_graphql@16.6.0:
+    resolution: {integrity: sha512-ASQvP+snHMYm+FhIaLxxFgVdRaM0vrN9wW2BKInQpktwWTXVyk+yP5nQUCEGmn0RTdlPKrffBaigxepkEAJPrg==}
+    peerDependencies:
+      graphql: ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
+    dependencies:
+      '@graphql-tools/schema': 9.0.19_graphql@16.6.0
+      '@graphql-tools/utils': 9.2.1_graphql@16.6.0
+      graphql: 16.6.0
+      p-limit: 3.1.0
+      tslib: 2.5.0
     dev: false
 
   /@graphql-tools/merge/6.2.15_graphql@16.6.0:
@@ -7280,6 +7323,13 @@ packages:
       sorted-array-functions: 1.3.0
     dev: false
 
+  /normalize-path/2.1.1:
+    resolution: {integrity: sha512-3pKJwH184Xo/lnH6oyP1q2pMd7HcypqqmRs91/6/i2CGtWwIKGCkOOMTm/zXbgTEWHw1uNpNi/igc3ePOYHb6w==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      remove-trailing-separator: 1.1.0
+    dev: false
+
   /normalize-path/3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
@@ -7453,6 +7503,13 @@ packages:
   /p-finally/1.0.0:
     resolution: {integrity: sha512-LICb2p9CB7FS+0eR1oqWnHhp0FljGLZCWBE9aix0Uye9W8LTQPwMTYVGWQWIw9RdQiDg4+epXQODwIYJtSJaow==}
     engines: {node: '>=4'}
+    dev: false
+
+  /p-limit/3.1.0:
+    resolution: {integrity: sha512-TYOanM3wGwNGsZN2cVTYPArw454xnXj5qmWF1bEoAc4+cU/ol7GVh7odevjp1FNHduHc3KZMcFduxU5Xc6uJRQ==}
+    engines: {node: '>=10'}
+    dependencies:
+      yocto-queue: 0.1.0
     dev: false
 
   /p-memoize/7.1.1:
@@ -8172,6 +8229,10 @@ packages:
       call-bind: 1.0.2
       define-properties: 1.2.0
       functions-have-names: 1.2.3
+    dev: false
+
+  /remove-trailing-separator/1.1.0:
+    resolution: {integrity: sha512-/hS+Y0u3aOfIETiaiirUFwDBDzmXPvO+jAfKTitUngIPzdKc6Z0LoFjM/CK5PL4C+eKwHohlHAb6H0VFfmmUsw==}
     dev: false
 
   /require-directory/2.1.1:
@@ -9103,6 +9164,13 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: false
 
+  /unixify/1.0.0:
+    resolution: {integrity: sha512-6bc58dPYhCMHHuwxldQxO3RRNZ4eCogZ/st++0+fcC1nr0jiGUtAdBJ2qzmLQWSxbtz42pWt4QQMiZ9HvZf5cg==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      normalize-path: 2.1.1
+    dev: false
+
   /unpipe/1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
     engines: {node: '>= 0.8'}
@@ -9263,8 +9331,8 @@ packages:
       - supports-color
     dev: false
 
-  /vite-plugin-graphweaver/0.1.9_vite@3.2.4:
-    resolution: {integrity: sha512-pE9Gvm9SoLn6cEOvTI5gJdZcLEuLlzWf6o4LyOTpdzn00J9EPd/o51D6egCVwibaceLPFO2P+4LgK+nobFWSbQ==}
+  /vite-plugin-graphweaver/0.1.10_vite@3.2.4:
+    resolution: {integrity: sha512-/O0HW9mGBVsE2fsfGuze/N62B/1Vgc2z0Y28kGs+KvqKMB36PZmGN72gNpuvrEH2uj2f8GYCPwZ59YBmS+3/XQ==}
     peerDependencies:
       vite: 3 || 4
     dependencies:
@@ -9546,6 +9614,11 @@ packages:
     dependencies:
       buffer-crc32: 0.2.13
       fd-slicer: 1.1.0
+    dev: false
+
+  /yocto-queue/0.1.0:
+    resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
+    engines: {node: '>=10'}
     dev: false
 
   /zen-observable-ts/1.2.5:
